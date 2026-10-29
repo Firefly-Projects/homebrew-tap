@@ -12,23 +12,23 @@ class Htmlspec < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.2.1/htmlspec-1.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "26cc573f4805dfc16822d82732e2def2bebeb487e0fbc7b049f48c7a6d82be1d"
+      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.0/htmlspec-1.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "45233c33a8232923424879e6604733833b6dcd860eec62bb9aae7c1755cd9d92"
     end
     on_intel do
-      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.2.1/htmlspec-1.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "5e81d4f634ca2f0ad427882b6453675930d87d84367f1b338519140bd6598f8d"
+      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.0/htmlspec-1.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "81660fa1c6fb8c251f27e92d03636faab922391ca243fa5729c70c4d98bd8283"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.2.1/htmlspec-1.2.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "24b197afcdb7f3871b08adb65926cbbeb8b58513f63e1cf359a42e37c4f739ef"
+      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.0/htmlspec-1.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "3802923130b5d04684ba1c8f1ea64eb323392574882d6993b6703f8edfd54d30"
     end
     on_intel do
-      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.2.1/htmlspec-1.2.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e957be147e7c772feeb5368839a5252d8708b0bfb05253ea66e11241477ca8a8"
+      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.0/htmlspec-1.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "f5780126f7f33a2238094b4e211ab13dc26b52c7c0e9a44c8222b7dacc652911"
     end
   end
 
