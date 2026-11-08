@@ -1,4 +1,4 @@
-# Rendered by scripts/render-formula from the SHA256SUMS of the release it names. The next
+# Rendered by cargo xtask render-formula from the SHA256SUMS of the release it names. The next
 # release replaces it, so a change belongs in packaging/homebrew/htmlspec.rb.in.
 class Htmlspec < Formula
   desc "Validate, format, and archive specifications kept as HTML documents"
@@ -7,28 +7,28 @@ class Htmlspec < Formula
   # Vega-Lite, and Vega-Embed, and the libraries bundled inside them, whose licenses are the
   # license field of crates/htmlspec-assets/Cargo.toml, with every text in THIRD-PARTY-LICENSES.
   # It is built from Rust crates, whose licenses CRATE-LICENSES credits and holds the texts of.
-  # This is the two joined, and scripts/render-formula refuses any other set.
+  # This is the two joined, and cargo xtask crate-notices --check refuses any other set.
   license all_of: ["MIT", "BSD-3-Clause", "ISC", "Apache-2.0", "Unlicense", "Zlib", "Unicode-3.0", "MIT-0", "MPL-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.0/htmlspec-1.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "45233c33a8232923424879e6604733833b6dcd860eec62bb9aae7c1755cd9d92"
+      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.1/htmlspec-1.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "1f49ed155c95672e4e9aaf4002dd16faa7b22fa79e4101a1a417fbb78b0d94f7"
     end
     on_intel do
-      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.0/htmlspec-1.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "81660fa1c6fb8c251f27e92d03636faab922391ca243fa5729c70c4d98bd8283"
+      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.1/htmlspec-1.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "01513bf80ac698eb0e76276a57b67745409761dd80b928ac34e77db529a5a2ce"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.0/htmlspec-1.3.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "3802923130b5d04684ba1c8f1ea64eb323392574882d6993b6703f8edfd54d30"
+      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.1/htmlspec-1.3.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "50ca685b64647d530403e807c1af984341f83b9937d705877655dc7b61dde649"
     end
     on_intel do
-      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.0/htmlspec-1.3.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f5780126f7f33a2238094b4e211ab13dc26b52c7c0e9a44c8222b7dacc652911"
+      url "https://github.com/Firefly-Projects/htmlspec/releases/download/v1.3.1/htmlspec-1.3.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "38baefd75d2eb9e48d426ab4abb41b5fe0e08a908c65015c159a2699c01e6a00"
     end
   end
 
